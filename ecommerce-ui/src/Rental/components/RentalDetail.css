@@ -1,0 +1,9 @@
+.rental-detail {
+    display: flex;
+    flex-flow: row wrap;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 0.7rem;
+    padding: 8px 0 4px;
+    font-weight: bold;
+}

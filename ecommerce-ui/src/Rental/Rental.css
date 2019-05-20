@@ -1,0 +1,52 @@
+.rental{
+    width:100%;
+    /* border: 1px dashed red; */
+}
+
+li.rental {
+    display: flex;
+    flex-flow: column;
+    padding:10px;
+    /* margin: 8px; */
+    color: black;
+    text-decoration: none;
+    align-items: flex-start;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.rental-info {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width:100%;
+    /* border: 1px solid blue; */
+    text-align: left;
+
+}
+
+.rental-info .payment {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    height: 80%;
+}
+
+.title {
+    text-transform: capitalize;
+    padding: 0 0 4px;
+    font-weight: 600;
+    color: midnightblue;
+}
+
+.payment{
+    padding: 0 0 4px;
+    font-weight: 300;
+    font-size: 0.9rem;
+}

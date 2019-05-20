@@ -1,0 +1,13 @@
+.rating-info {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    font-size:0.65rem;
+    padding: 2px 0 4px ;
+}
+
+.stars{
+    color:green;
+
+    font-weight:900;
+}
