@@ -10,7 +10,15 @@ import './components/Rating.css'
 import PropTypes from 'prop-types';
 
 class Rental extends React.Component {
-
+    static propTypes = {
+        
+        rental: PropTypes.object,
+        key: PropTypes.number,
+        idx: PropTypes.number,
+        cost: PropTypes.number,
+        onClick: PropTypes.func,
+        buttonText: PropTypes.string,
+    }
     // const type = this.props.type;
     // console.log(this.props.type);
     render() {

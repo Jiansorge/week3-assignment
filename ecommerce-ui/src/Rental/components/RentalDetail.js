@@ -3,9 +3,12 @@
 
 import React from 'react';
 import './RentalDetail.css'
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 class RentalDetail extends React.Component {
+  static propTypes = {
+    rental: PropTypes.object,
+  }
 
     render() {
 

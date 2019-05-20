@@ -2,8 +2,13 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Rental from './Rental/Rental.js';
+import PropTypes from 'prop-types';
 
 class Rentals extends React.Component {
+  static propTypes = {
+    rentals: PropTypes.array,
+    onBookRental: PropTypes.func
+  }
   render () {
     const rentalList = this.props.rentals
       .map((rental, index) => {

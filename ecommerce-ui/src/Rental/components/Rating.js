@@ -4,9 +4,12 @@
 
 import React from 'react';
 import './Rating.css'
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 class Rating extends React.Component {
+  static propTypes = {
+    rental: PropTypes.object,
+  }
 
     render() {
 

@@ -1,8 +1,11 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 class Image extends React.Component {
-  
+  static propTypes = {
+    rental: PropTypes.object,
+  }
+
     render() {
       return (
         <img className = "image"
