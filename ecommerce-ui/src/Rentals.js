@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 
 class Rentals extends React.Component {
   static propTypes = {
-    rentals: PropTypes.array,
-    onBookRental: PropTypes.func
+    rentals: PropTypes.array.isRequired,
+    onBookRental: PropTypes.func.isRequired
   }
   render () {
     const rentalList = this.props.rentals

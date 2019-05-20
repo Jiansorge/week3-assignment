@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 
 class ShoppingCart extends React.Component {
     static propTypes = {
-        rentals: PropTypes.array,
-        onDeleteRental: PropTypes.func
+        rentals: PropTypes.array.isRequired,
+        onDeleteRental: PropTypes.func.isRequired
       }
     
     render() {

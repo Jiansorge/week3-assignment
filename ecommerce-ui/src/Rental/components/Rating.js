@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 class Rating extends React.Component {
   static propTypes = {
-    rental: PropTypes.object,
+    rental: PropTypes.object.isRequired,
   }
 
     render() {

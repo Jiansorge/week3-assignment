@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Image extends React.Component {
   static propTypes = {
-    rental: PropTypes.object,
+    rental: PropTypes.object.isRequired,
   }
 
     render() {

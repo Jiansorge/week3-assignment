@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 class RentalDetail extends React.Component {
   static propTypes = {
-    rental: PropTypes.object,
+    rental: PropTypes.object.isRequired,
   }
 
     render() {
