@@ -22,7 +22,7 @@ class Rating extends React.Component {
             &nbsp;
             {this.props.rental.rating.reviews} reviews
           </p>
-          <p className={"superhost"}>
+          <div className={"superhost"}>
             { //Check if host has superHost
                         (this.props.rental.host.isSuperhost )
                             ? <div> 
@@ -30,7 +30,7 @@ class Rating extends React.Component {
                               </div> 
                             : ""
                 }
-          </p>
+          </div>
         </div>
       );
     }

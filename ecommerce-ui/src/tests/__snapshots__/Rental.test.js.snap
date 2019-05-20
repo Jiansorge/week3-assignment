@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<li
+  className="rental"
+>
+  <Image
+    className="image"
+    rental={
+      Object {
+        "host": Object {
+          "isSuperhost": true,
+          "name": "Robert",
+        },
+        "houseType": "Apartment",
+        "image": "https://images.unsplash.com/photo-1490806230066-f7e6f7bf5052?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2ca889535ea01f912f94ac4ddf0034e0&auto=format&fit=crop&w=500&q=80",
+        "location": Object {
+          "city": "New York",
+          "country": "USA",
+        },
+        "payment": Object {
+          "cost": 105,
+          "description": "Free cancellation",
+        },
+        "rating": Object {
+          "reviews": 133,
+          "stars": 3,
+        },
+        "title": "Centrally-located Manhattan studio",
+      }
+    }
+  />
+  <div
+    className="rental-info"
+  >
+    <RentalDetail
+      rental={
+        Object {
+          "host": Object {
+            "isSuperhost": true,
+            "name": "Robert",
+          },
+          "houseType": "Apartment",
+          "image": "https://images.unsplash.com/photo-1490806230066-f7e6f7bf5052?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2ca889535ea01f912f94ac4ddf0034e0&auto=format&fit=crop&w=500&q=80",
+          "location": Object {
+            "city": "New York",
+            "country": "USA",
+          },
+          "payment": Object {
+            "cost": 105,
+            "description": "Free cancellation",
+          },
+          "rating": Object {
+            "reviews": 133,
+            "stars": 3,
+          },
+          "title": "Centrally-located Manhattan studio",
+        }
+      }
+    />
+    <h3
+      className="title"
+    >
+      Centrally-located Manhattan studio
+    </h3>
+    <div
+      className="payment"
+    >
+      $ 
+      105
+       per night
+      <p>
+          •   
+        Free cancellation
+      </p>
+       
+    </div>
+    <Rating
+      className="payment"
+      rental={
+        Object {
+          "host": Object {
+            "isSuperhost": true,
+            "name": "Robert",
+          },
+          "houseType": "Apartment",
+          "image": "https://images.unsplash.com/photo-1490806230066-f7e6f7bf5052?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2ca889535ea01f912f94ac4ddf0034e0&auto=format&fit=crop&w=500&q=80",
+          "location": Object {
+            "city": "New York",
+            "country": "USA",
+          },
+          "payment": Object {
+            "cost": 105,
+            "description": "Free cancellation",
+          },
+          "rating": Object {
+            "reviews": 133,
+            "stars": 3,
+          },
+          "title": "Centrally-located Manhattan studio",
+        }
+      }
+    />
+    <button
+      onClick={[Function]}
+    />
+  </div>
+</li>
+`;

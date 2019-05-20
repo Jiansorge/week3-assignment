@@ -45,16 +45,16 @@ class App extends React.Component {
     console.log(this.state.selectedRentals);
     return(
       <div className="App">
-      <ShoppingCart
-        rentals={this.state.selectedRentals}
-        onDeleteRental={this.deleteRental}
-      />
-        <hr />
-      <h2 id="rentals-title"> Homes around the world</h2>
-      <Rentals
-        rentals={this.state.rentals}
-        onBookRental={this.bookRental}
-      />
+        <ShoppingCart
+          rentals={this.state.selectedRentals}
+          onDeleteRental={this.deleteRental}
+        />
+          <hr />
+        <h2 id="rentals-title"> Homes around the world</h2>
+        <Rentals
+          rentals={this.state.rentals}
+          onBookRental={this.bookRental}
+        />
       </div>
     );
   }

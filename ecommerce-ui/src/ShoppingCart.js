@@ -32,8 +32,8 @@ class ShoppingCart extends React.Component {
             ? <div className="shopping-div">
                 <h2 id="cart-title"> Currently in your cart</h2>
 
-                <aside className='shopping-cart'>
-                    &#128722; ${totalCost} total
+                <aside className='shopping-cart' >
+                    <span role="img" aria-label="shopping cart">&#128722;</span> ${totalCost} total
                 </aside>
                 <ul className={'shopping-rentals'}>
                     {rentalList}

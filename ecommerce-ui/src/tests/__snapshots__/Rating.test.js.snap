@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<div
+  className="rating-info"
+>
+  <p
+    className="stars"
+  >
+    3
+     stars
+  </p>
+  <p
+    className="reviews"
+  >
+     
+    133
+     reviews
+  </p>
+  <div
+    className="superhost"
+  >
+    <div>
+        •   Superhost
+    </div>
+  </div>
+</div>
+`;

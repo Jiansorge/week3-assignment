@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './App.js';
 import {shallow} from 'enzyme';
-//import Card from './Card';
+import airbnbs from './airbnbs.json';
+
+
 //import testData from './testData.json';
 
 it('renders without crashing', () => {
@@ -11,20 +13,44 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
+it('should match the snapshot', () => {
+  const wrapper = shallow(<App />);
+  expect(wrapper).toMatchSnapshot();
+});
+
 // it('should match the snapshot', () => {
-//   const wrapper = shallow(<App />);
+//   const wrapper = shallow(<ShoppingCart rentals={airbnbs}/>);
 //   expect(wrapper).toMatchSnapshot();
 // });
 
-// it('should have expected classNames', () => {
-//   const wrapper = shallow(<App />);
-//   const link = wrapper.find('a');
-  
-//   expect(link.prop('className')).toEqual('App-link');
-//   // this is important! Must link to reactjs.org
-//   expect(link.prop('href')).toEqual('https://reactjs.org');
+// it('should match the snapshot', () => {
+//   const wrapper = shallow(<Rentals rentals={airbnbs}/>);
+//   expect(wrapper).toMatchSnapshot();
 // });
 
+// it('should match the snapshot', () => {
+//   const wrapper = shallow(<Rental rental={airbnbs[0]}/>);
+//   expect(wrapper).toMatchSnapshot();
+// });
+
+// it('should match the snapshot', () => {
+//   const wrapper = shallow(<RentalDetail rental={airbnbs[0]}/>);
+//   expect(wrapper).toMatchSnapshot();
+// });
+
+// it('should match the snapshot', () => {
+//   const wrapper = shallow(<Image rental={airbnbs[0]} />);
+//   expect(wrapper).toMatchSnapshot();
+// });
+
+// it('should match the snapshot', () => {
+//   const wrapper = shallow(<Rating rental={airbnbs[0]} />);
+//   expect(wrapper).toMatchSnapshot();
+// });
+
+
+
+//---
 // describe('Card', () => {
 //   it('should match the snapshot', () => {
 //     const wrapper = shallow(

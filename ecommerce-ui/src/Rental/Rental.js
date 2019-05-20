@@ -12,9 +12,8 @@ import PropTypes from 'prop-types';
 class Rental extends React.Component {
     static propTypes = {
         rental: PropTypes.object.isRequired,
-        key: PropTypes.number.isRequired,
+        // key: PropTypes.number.isRequired,
         idx: PropTypes.number.isRequired,
-        cost: PropTypes.number.isRequired,
         onClick: PropTypes.func.isRequired,
         buttonText: PropTypes.string.isRequired,
     }
